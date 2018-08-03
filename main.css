@@ -62,8 +62,8 @@ h1
 
 .photo2:hover
 {
-	-webkit-transform: scale(0.95) rotate(5deg);
-	-ms-transform: scale(0.95) rotate(5deg);
+	-webkit-transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
+	-ms-transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
 	transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
 }
 
@@ -79,8 +79,8 @@ h1
 
 .photo3:hover img
 {
-	-webkit-transform: rotateX(360deg) rotateY(360deg);
-	-ms-transform: rotateX(360deg) rotateY(360deg);
+	-webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+	-ms-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
 	transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
 }
 
