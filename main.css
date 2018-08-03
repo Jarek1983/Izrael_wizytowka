@@ -6,27 +6,6 @@ body
 	color: #efefef;
 }
 
-a:link 
-{
-    color: #fff;
-	text-decoration: none;
-}
-
-a:visited 
-{
-    color: #fff;
-}
-
-a:hover 
-{
-    color: #fff;
-}
-
-a:active 
-{    
-	color: #fff;
-}
-
 .container
 {
 	margin-left: auto;
@@ -62,32 +41,30 @@ h1
 	text-transform: uppercase;
 }
 
-/* Hover effects */
 
 .photo1
 {
 	width: 450px;
-	transition: all 0.2s ease-in-out;
+	transition: transform 2s ease-in-out;
 }
 
 .photo1:hover
 {
-	-webkit-transform: scale(0.9);
-	-ms-transform: scale(0.9);
-	transform: scale(0.9);
+	-webkit-transform: translate(200px, 150px);
+	-ms-transform: translate(200px, 150px);
+	transform: translate(200px, 150px);
 }
-
 .photo2
 {
 	width: 450px;
-	transition: transform .2s ease-in-out;
+	transition: transform 2s ease-in-out;
 }
 
 .photo2:hover
 {
 	-webkit-transform: scale(0.95) rotate(5deg);
 	-ms-transform: scale(0.95) rotate(5deg);
-	transform: scale(0.95) rotate(5deg);
+	transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
 }
 
 .photo3
@@ -95,29 +72,16 @@ h1
 	width: 450px;
 }
 
-.overlay
+.photo3 img
 {
-	position: relative;
-	width: 450px;
-	height: 278px;
+	transition: transform 5s ease-in-out;
 }
 
-.overlay .link
+.photo3:hover img
 {
-	position: absolute;
-	display: block;
-	width: 450px;
-	height: 65px;
-	background-color: #111;
-	left: 0px;
-	bottom: 0px;
-	opacity: 0;
-	transition: opacity 0.5s ease-in-out;
-}
-
-.overlay:hover .link
-{
-	opacity: 0.8;
+	-webkit-transform: rotateX(360deg) rotateY(360deg);
+	-ms-transform: rotateX(360deg) rotateY(360deg);
+	transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
 }
 
 .photo4
@@ -125,78 +89,50 @@ h1
 	width: 450px;
 }
 
-.overlayT
+.photo4 img
 {
-	position: relative;
-	width: 450px;
-	height: 278px;
+	transition: transform 3s ease-in-out;
 }
 
-.overlayT .link
+.photo4:hover img
 {
-	position: absolute;
-	display: block;
-	width: 100%;
-	height: 100%;
-	background-color: #27a38d;
-	left: 0px;
-	top: 0px;
-	opacity: 0;
-	transition: opacity 0.5s ease-in-out;
-}
-
-.overlayT:hover .link
-{
-	opacity: 0.9;
-}
-
-.icon
-{
-	display: block;
-	top: 25%;
-	position: relative;
-	font-size: 72px;
-}
-
-.icon p
-{
-	font-size: 20px;
+	-webkit-transform: matrix(0.1, -0.1, 0.1, 0.1, 1, 1);
+	-ms-transform: matrix(0.1, -0.1, 0.1, 0.1, 1, 1);
+	transform: matrix(0.1, -0.1, 0.1, 0.1, 1, 1);
 }
 
 .photo5
 {
 	width: 450px;
-	height: 278px;
-	overflow: hidden;
+	height: 278px;	
 }
 
 .photo5 img
 {
-	transition: all 0.5s ease-in-out;
+	transition: transform 5s ease-in-out;
 }
 
 .photo5:hover img
 {
-	-webkit-transform: scale(1.15);
-	-ms-transform: scale(1.15);
-	transform: scale(1.15);
+	-webkit-transform: scale(1.5) rotateZ(360deg);
+	-ms-transform: scale(1.5) rotateZ(360deg);
+	transform: scale(1.5) rotateZ(360deg);
 }
 
 .photo6
 {
 	width: 450px;
 	height: 278px;
-	overflow: hidden;
 }
 
 .photo6 img
 {
-	transition: all 0.7s ease-in-out;
+	transition: transform 3s ease-in-out;
 }
 
 .photo6:hover img
 {
-	-webkit-transform: scale(1.2) rotate(-5deg);
-	-ms-transform: scale(1.2) rotate(-5deg);
-	transform: scale(1.2) rotate(-5deg);
+	-webkit-transform: scale(0.5) rotateX(180deg) rotateY(180deg);
+	-ms-transform: scale(0.5) rotateX(180deg) rotateY(180deg);
+	transform: scale(0.5) rotateX(180deg) rotateY(180deg);
 }
