@@ -1,13 +1,11 @@
-body
-{
+body {
 	background-color: #191d21;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	color: #efefef;
 }
 
-.container
-{
+.container {
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
@@ -16,22 +14,19 @@ body
 	margin-bottom: 25px;
 }
 
-.postcard
-{
+.postcard {
 	display: inline-block;
 	width: 460px;
 	text-align: center;
 	padding: 5px;
 }
 
-.postcard p
-{
+.postcard p {
 	padding: 5px;
 	margin-top: 10px;
 }
 
-h1
-{
+h1 {
 	font-size: 32px;
 	font-weight: 400;
 	color: #39a5f1;
@@ -42,96 +37,80 @@ h1
 }
 
 
-.photo1
-{
+.photo1 {
 	width: 450px;
 	transition: transform 2s ease-in-out;
 }
 
-.photo1:hover
-{
+.photo1:hover {
 	-webkit-transform: translate(200px, 150px);
 	-ms-transform: translate(200px, 150px);
 	transform: translate(200px, 150px);
 }
-.photo2
-{
+.photo2 {
 	width: 450px;
 	transition: transform 2s ease-in-out;
 }
 
-.photo2:hover
-{
+.photo2:hover {
 	-webkit-transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
 	-ms-transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
 	transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
 }
 
-.photo3
-{
+.photo3 {
 	width: 450px;
 }
 
-.photo3 img
-{
+.photo3 img {
 	transition: transform 5s ease-in-out;
 }
 
-.photo3:hover img
-{
+.photo3:hover img {
 	-webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
 	-ms-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
 	transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
 }
 
-.photo4
-{
+.photo4 {
 	width: 450px;
 }
 
-.photo4 img
-{
+.photo4 img {
 	transition: transform 3s ease-in-out;
 }
 
-.photo4:hover img
-{
+.photo4:hover img {
 	-webkit-transform: matrix(0.1, -0.1, 0.1, 0.1, 1, 1);
 	-ms-transform: matrix(0.1, -0.1, 0.1, 0.1, 1, 1);
 	transform: matrix(0.1, -0.1, 0.1, 0.1, 1, 1);
 }
 
-.photo5
-{
+.photo5 {
 	width: 450px;
 	height: 278px;	
 }
 
-.photo5 img
-{
+.photo5 img {
 	transition: transform 5s ease-in-out;
 }
 
-.photo5:hover img
-{
+.photo5:hover img {
 	-webkit-transform: scale(1.5) rotateZ(360deg);
 	-ms-transform: scale(1.5) rotateZ(360deg);
 	transform: scale(1.5) rotateZ(360deg);
 }
 
-.photo6
-{
+.photo6 {
 	width: 450px;
 	height: 278px;
 }
 
-.photo6 img
-{
+.photo6 img {
 	transition: transform 3s ease-in-out;
 }
 
-.photo6:hover img
-{
+.photo6:hover img {
 	-webkit-transform: scale(0.5) rotateX(180deg) rotateY(180deg);
 	-ms-transform: scale(0.5) rotateX(180deg) rotateY(180deg);
 	transform: scale(0.5) rotateX(180deg) rotateY(180deg);
