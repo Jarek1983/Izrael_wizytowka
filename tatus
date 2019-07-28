@@ -1,0 +1,35 @@
+[33mcommit a8abfca9bfc7a6fa4a1b6392a72aaf2307c0a82c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Jarosław Żmijewski <jzmija@wp.pl>
+Date:   Sat Aug 4 11:04:48 2018 +0200
+
+    Added file - Readme.md
+
+[33mcommit 7464ec6d14191a384bc016f099d31c218985c56c[m
+Author: Jarosław Żmijewski <jzmija@wp.pl>
+Date:   Fri Aug 3 18:17:30 2018 +0200
+
+    Change main.css
+
+[33mcommit fc526dd8e1a3734b563e0ad9f499c9c63ceb629b[m
+Author: Jarosław Żmijewski <jzmija@wp.pl>
+Date:   Fri Aug 3 17:48:01 2018 +0200
+
+    Change main.css
+
+[33mcommit 16f67adc41bdcbd82c7701483e903c564a91d692[m
+Author: Jarosław Żmijewski <jzmija@wp.pl>
+Date:   Tue Jul 31 21:13:41 2018 +0200
+
+    Create template
+
+[33mcommit 07502c0a35d639ca0f06d664bffadbc5db9f43ec[m
+Author: Jarosław Żmijewski <jzmija@wp.pl>
+Date:   Tue Jul 31 13:08:48 2018 +0200
+
+    Tests
+
+[33mcommit b41d9e676ddd56393c6ff28ad8db92cb48911973[m
+Author: Jarosław Żmijewski <jzmija@wp.pl>
+Date:   Tue Jul 31 13:00:30 2018 +0200
+
+    Rozpoczęcie projekty
