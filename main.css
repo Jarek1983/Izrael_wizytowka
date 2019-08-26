@@ -1,117 +1,116 @@
 body {
-	background-color: #191d21;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
-	color: #efefef;
+  background-color: #191d21;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #efefef;
 }
 
 .container {
-	margin-left: auto;
-	margin-right: auto;
-	width: 1000px;
-	text-align: center;
-	padding: 0;
-	margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 25px;
 }
 
 .postcard {
-	display: inline-block;
-	width: 460px;
-	text-align: center;
-	padding: 5px;
+  display: inline-block;
+  width: 460px;
+  text-align: center;
+  padding: 5px;
 }
 
 .postcard p {
-	padding: 5px;
-	margin-top: 10px;
+  padding: 5px;
+  margin-top: 10px;
 }
 
 h1 {
-	font-size: 32px;
-	font-weight: 400;
-	color: #39a5f1;
-	margin-top: 45px;	
-	margin-bottom: 30px;
-	letter-spacing: 10px;
-	text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 400;
+  color: #39a5f1;
+  margin-top: 45px;	
+  margin-bottom: 30px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
 }
 
-
 .photo1 {
-	width: 450px;
-	transition: transform 2s ease-in-out;
+  width: 450px;
+  transition: transform 2s ease-in-out;
 }
 
 .photo1:hover {
-	-webkit-transform: translate(200px, 150px);
-	-ms-transform: translate(200px, 150px);
-	transform: translate(200px, 150px);
+  -webkit-transform: translate(200px, 150px);
+  -ms-transform: translate(200px, 150px);
+  transform: translate(200px, 150px);
 }
 .photo2 {
-	width: 450px;
-	transition: transform 2s ease-in-out;
+  width: 450px;
+  transition: transform 2s ease-in-out;
 }
 
 .photo2:hover {
-	-webkit-transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
-	-ms-transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
-	transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
+  -webkit-transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
+  -ms-transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
+  transform: scale(0.95) rotate(5deg) translate(-50px, -50px);
 }
 
 .photo3 {
-	width: 450px;
+  width: 450px;
 }
 
 .photo3 img {
-	transition: transform 5s ease-in-out;
+  transition: transform 5s ease-in-out;
 }
 
 .photo3:hover img {
-	-webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-	-ms-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-	transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  -ms-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
 }
 
 .photo4 {
-	width: 450px;
+  width: 450px;
 }
 
 .photo4 img {
-	transition: transform 3s ease-in-out;
+  transition: transform 3s ease-in-out;
 }
 
 .photo4:hover img {
-	-webkit-transform: matrix(0.1, -0.1, 0.1, 0.1, 1, 1);
-	-ms-transform: matrix(0.1, -0.1, 0.1, 0.1, 1, 1);
-	transform: matrix(0.1, -0.1, 0.1, 0.1, 1, 1);
+  -webkit-transform: matrix(0.1, -0.1, 0.1, 0.1, 1, 1);
+  -ms-transform: matrix(0.1, -0.1, 0.1, 0.1, 1, 1);
+  transform: matrix(0.1, -0.1, 0.1, 0.1, 1, 1);
 }
 
 .photo5 {
-	width: 450px;
-	height: 278px;	
+  width: 450px;
+  height: 278px;	
 }
 
 .photo5 img {
-	transition: transform 5s ease-in-out;
+  transition: transform 5s ease-in-out;
 }
 
 .photo5:hover img {
-	-webkit-transform: scale(1.5) rotateZ(360deg);
-	-ms-transform: scale(1.5) rotateZ(360deg);
-	transform: scale(1.5) rotateZ(360deg);
+  -webkit-transform: scale(1.5) rotateZ(360deg);
+  -ms-transform: scale(1.5) rotateZ(360deg);
+  transform: scale(1.5) rotateZ(360deg);
 }
 
 .photo6 {
-	width: 450px;
-	height: 278px;
+  width: 450px;
+  height: 278px;
 }
 
 .photo6 img {
-	transition: transform 3s ease-in-out;
+  transition: transform 3s ease-in-out;
 }
 
 .photo6:hover img {
-	-webkit-transform: scale(0.5) rotateX(180deg) rotateY(180deg);
-	-ms-transform: scale(0.5) rotateX(180deg) rotateY(180deg);
-	transform: scale(0.5) rotateX(180deg) rotateY(180deg);
+  -webkit-transform: scale(0.5) rotateX(180deg) rotateY(180deg);
+  -ms-transform: scale(0.5) rotateX(180deg) rotateY(180deg);
+  transform: scale(0.5) rotateX(180deg) rotateY(180deg);
 }
